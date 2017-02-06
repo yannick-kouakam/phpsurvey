@@ -64,7 +64,7 @@
       <file leaf-file-name="SurveyQuestion.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Html/SurveyQuestion.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
+            <state relative-caret-position="783">
               <caret line="90" column="30" lean-forward="false" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -89,12 +89,11 @@
       <file leaf-file-name="Login.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PhpFiles/Login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+            <state relative-caret-position="181">
+              <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
               <folding>
-                <element signature="e#6#89#0#PHP" expanded="true" />
-                <marker date="1486418261088" expanded="true" signature="437:496" ph="select `user... user" />
-                <marker date="1486418261088" expanded="true" signature="1080:1101" ph="select * fro... answers" />
+                <marker date="1486422013011" expanded="true" signature="391:450" ph="select `user... user" />
+                <marker date="1486422013011" expanded="true" signature="1034:1055" ph="select * fro... answers" />
               </folding>
             </state>
           </provider>
@@ -102,14 +101,14 @@
       </file>
       <file leaf-file-name="bd_survey.user" pinned="false" current-in-tab="false">
         <entry file="dbDummy://dbtable:/abc61f7e/4b44b36b-54eb-43b0-b98e-827ee16f6f59/bd_survey.user">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+          <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
             </state>
           </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -118,7 +117,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="550">
               <caret line="61" column="59" lean-forward="false" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -128,26 +127,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="autoload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="bd_survey.answers" pinned="false" current-in-tab="false">
         <entry file="dbDummy://dbtable:/abc61f7e/4b44b36b-54eb-43b0-b98e-827ee16f6f59/bd_survey.answers">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+          <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
             </state>
           </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -156,8 +145,8 @@
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4b44b36b-54eb-43b0-b98e-827ee16f6f59/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+            <state relative-caret-position="22">
+              <caret line="1" column="49" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -166,12 +155,12 @@
       <file leaf-file-name="SurveyCheck.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PhpFiles/SurveyCheck.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="57" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="12" selection-end-column="57" />
+            <state relative-caret-position="242">
+              <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="20" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
-                <marker date="1486418261014" expanded="true" signature="618:711" ph="insert into answers... " />
-                <marker date="1486418261014" expanded="true" signature="618:721" ph="insert into answers... " />
+                <marker date="1486420442308" expanded="true" signature="618:711" ph="insert into answers... " />
+                <marker date="1486420442308" expanded="true" signature="618:721" ph="insert into answers... " />
               </folding>
             </state>
           </provider>
@@ -193,11 +182,13 @@
         <option value="$PROJECT_DIR$/Html/Retake.html" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/60efc61e-dc51-4980-a093-2dc1acf969fb/console.sql" />
         <option value="$PROJECT_DIR$/Html/Login.html" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4b44b36b-54eb-43b0-b98e-827ee16f6f59/console.sql" />
         <option value="$PROJECT_DIR$/Html/SurveyQuestion.html" />
         <option value="$PROJECT_DIR$/Html/SurveyQuestion.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/PhpFiles/SurveyCheck.php" />
+        <option value="dbtable:/abc61f7e/4b44b36b-54eb-43b0-b98e-827ee16f6f59/bd_survey.answers" />
+        <option value="dbtable:/abc61f7e/4b44b36b-54eb-43b0-b98e-827ee16f6f59/bd_survey.user" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4b44b36b-54eb-43b0-b98e-827ee16f6f59/console.sql" />
         <option value="$PROJECT_DIR$/PhpFiles/Login.php" />
       </list>
     </option>
@@ -241,34 +232,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SurveyApplication" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SurveyApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SurveyApplication" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SurveyApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SurveyApplication" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Html" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -361,12 +324,12 @@
       <option name="presentableId" value="Default" />
       <updated>1486384897913</updated>
       <workItem from="1486384899378" duration="10740000" />
-      <workItem from="1486401834924" duration="9880000" />
+      <workItem from="1486401834924" duration="13047000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20620000" />
+    <option name="totallyTimeSpent" value="23787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
@@ -463,8 +426,8 @@
           <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1486418261014" expanded="true" signature="618:711" ph="insert into answers... " />
-            <marker date="1486418261014" expanded="true" signature="618:721" ph="insert into answers... " />
+            <marker date="1486420442308" expanded="true" signature="618:711" ph="insert into answers... " />
+            <marker date="1486420442308" expanded="true" signature="618:721" ph="insert into answers... " />
           </folding>
         </state>
       </provider>
@@ -503,40 +466,6 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/957b5330/60efc61e-dc51-4980-a093-2dc1acf969fb/bd_survey.answers" />
-    <entry file="dbDummy://dbtable:/abc61f7e/4b44b36b-54eb-43b0-b98e-827ee16f6f59/bd_survey.answers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4b44b36b-54eb-43b0-b98e-827ee16f6f59/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/abc61f7e/4b44b36b-54eb-43b0-b98e-827ee16f6f59/bd_survey.user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Html/Login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -555,9 +484,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PhpFiles/SurveyCheck.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+            <marker date="1486420442308" expanded="true" signature="618:711" ph="insert into answers... " />
+            <marker date="1486420442308" expanded="true" signature="618:721" ph="insert into answers... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/abc61f7e/4b44b36b-54eb-43b0-b98e-827ee16f6f59/bd_survey.answers">
+      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/abc61f7e/4b44b36b-54eb-43b0-b98e-827ee16f6f59/bd_survey.user">
+      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4b44b36b-54eb-43b0-b98e-827ee16f6f59/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="49" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Html/SurveyQuestion.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
+        <state relative-caret-position="783">
           <caret line="90" column="30" lean-forward="false" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -568,7 +543,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="550">
           <caret line="61" column="59" lean-forward="false" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -577,26 +552,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhpFiles/SurveyCheck.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="57" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="12" selection-end-column="57" />
-          <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1486418261014" expanded="true" signature="618:711" ph="insert into answers... " />
-            <marker date="1486418261014" expanded="true" signature="618:721" ph="insert into answers... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PhpFiles/Login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        <state relative-caret-position="181">
+          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1486418261088" expanded="true" signature="437:496" ph="select `user... user" />
-            <marker date="1486418261088" expanded="true" signature="1080:1101" ph="select * fro... answers" />
+            <marker date="1486422013011" expanded="true" signature="391:450" ph="select `user... user" />
+            <marker date="1486422013011" expanded="true" signature="1034:1055" ph="select * fro... answers" />
           </folding>
         </state>
       </provider>
