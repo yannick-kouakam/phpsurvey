@@ -89,11 +89,11 @@
       <file leaf-file-name="Login.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PhpFiles/Login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="291">
+              <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               <folding>
-                <marker date="1486422013011" expanded="true" signature="391:450" ph="select `user... user" />
-                <marker date="1486422013011" expanded="true" signature="1034:1055" ph="select * fro... answers" />
+                <marker date="1486422272719" expanded="true" signature="398:457" ph="select `user... user" />
+                <marker date="1486422272719" expanded="true" signature="1041:1062" ph="select * fro... answers" />
               </folding>
             </state>
           </provider>
@@ -324,12 +324,12 @@
       <option name="presentableId" value="Default" />
       <updated>1486384897913</updated>
       <workItem from="1486384899378" duration="10740000" />
-      <workItem from="1486401834924" duration="13047000" />
+      <workItem from="1486401834924" duration="13313000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23787000" />
+    <option name="totallyTimeSpent" value="24053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
@@ -554,11 +554,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PhpFiles/Login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        <state relative-caret-position="291">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
-            <marker date="1486422013011" expanded="true" signature="391:450" ph="select `user... user" />
-            <marker date="1486422013011" expanded="true" signature="1034:1055" ph="select * fro... answers" />
+            <marker date="1486422272719" expanded="true" signature="398:457" ph="select `user... user" />
+            <marker date="1486422272719" expanded="true" signature="1041:1062" ph="select * fro... answers" />
           </folding>
         </state>
       </provider>

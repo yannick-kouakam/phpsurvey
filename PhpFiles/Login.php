@@ -9,11 +9,12 @@ $host="us-cdbr-iron-east-04.cleardb.net";
 $bd_name="heroku_4fa074e2126dc52";
 $user_name="bd18ef721d4934";
 $pass_word="ff82e5ff";
-$con=new mysqli($host,$user_name,$bd_name,$bd_name);
+$con=new mysqli($host,$user_name,$pass_word,$bd_name);
 if(mysqli_connect_errno())
 {
     echo "connection failed";
 }
+else
 if($_POST!=null)
 
 
