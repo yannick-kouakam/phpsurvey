@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<style media="screen">
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+  }
+  #login {
+    position: absolute;
+    right: 150px;
+    top: 110px;
+    width: 200px;
+    text-align: center;
+  }
+  #login a {
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 60px;
+    min-height: 60px;
+    border: 2px solid black;
+    box-shadow: 6px 6px 5px #888888;
+    width: 100%;
+    min-height: 100%;
+    background-color: #26f371;
+  }
+  #post {
+    width: 400px;
+    min-height: 500px;
+    margin: 30px auto;
+    text-align: left;
+  }
+  input[type="text"], input[type="number"], textarea {
+    width: 100%;
+    min-height: 24px;
+    resize: vertical;
+  }
+  input[type="number"] {
+    width: auto;
+  }
+  input[type="submit"] {
+    width: 150px;
+    line-height: 30px;
+    min-height: 30px;
+    font-size: 24px;
+    background-color: #346e80;
+    border: 2px solid black;
+    text-transform: uppercase;
+    position:relative;
+    top:50%;
+    left:30%;
+
+  }
+</style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="background-color:powderblue;">
+<h1 align="center"> welcome to the survey </h1>
+<form id="post" method="post" action="../PhpFiles/SurveyCheck.php">
+
+    <p>
+        Question 1: what is you opinion about global warming?</br>
+        <input type="text" name="question1" value="" size="50" height="50" required>
+    </p>
+
+    <p>
+        Question 2: what institutions do you are more involve in the problem</br>
+        <input type="radio" required name="question2" value="Government"> Governments </br>
+        <input type="radio" required name="question2" value="NGO"> NGO </br>
+        <input type="radio" required name="question2" value="Citizen"> Citizen </br>
+        <input type="radio" required name="question2" value="other"> Governments </br>
+    </p>
+
+    <p>
+        Question 3: give a mark to the app</br>
+        <input type="number" name="question3" min="1" max="10" step="1" pattern="\d+" required>
+    </p>
+
+    <p>
+        Question: 4 </br>
+        <textarea name="question4" required  maxlength="1000"></textarea>
+    </p>
+    <p>
+        Question: 5 </br>
+        <textarea name="question5" required  maxlength="1000"></textarea>
+    </p>
+
+    <p style="align: center;">
+        <input type="submit" value="Submit" name="submit">
+    </p>
+
+</form>
+<div id="login"><a href="Login.html"> log in</a> </div>
+</body>
+</html>
