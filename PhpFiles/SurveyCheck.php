@@ -5,8 +5,12 @@
  * Date: 06.02.2017
  * Time: 15:50
  */
-
-$con=new mysqli("localhost","yannick","admin","bd_survey");
+mysql://bd18ef721d4934:ff82e5ff@us-cdbr-iron-east-04.cleardb.net/heroku_4fa074e2126dc52?reconnect=true
+$host="us-cdbr-iron-east-04.cleardb.net";
+$bd_name="heroku_4fa074e2126dc52";
+$user_name="bd18ef721d4934";
+$pass_word="ff82e5ff";
+$con=new mysqli($host,$user_name,$php_errormsg,$bd_name);
 if(mysqli_connect_errno())
 {
     echo "connection failed";
@@ -29,7 +33,7 @@ $answer5=$_POST['question5'];
 if($_POST['submit']=='Submit')
 {
 
-    echo '<p> thank for filling!! click <a href="../Html/SurveyQuestion.html"><h3>here</h3> </a> if you want to resubmit </p>';
+    echo '<p> thank for filling!! click <a href="../SurveyApplication/Html/SurveyQuestion.html"><h3>here</h3> </a> if you want to resubmit </p>';
 }
 else
 {

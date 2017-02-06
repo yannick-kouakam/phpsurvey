@@ -8,9 +8,11 @@
 
 if($_POST!=null)
 {
-    $username=$_POST['username'];
-    $password=$_POST['password'];
-    $con=new mysqli("localhost","yannick","admin","bd_survey");
+    $host="us-cdbr-iron-east-04.cleardb.net";
+    $bd_name="heroku_4fa074e2126dc52";
+    $user_name="bd18ef721d4934";
+    $pass_word="ff82e5ff";
+    $con=new mysqli($host,$user_name,$php_errormsg,$bd_name);
     if(mysqli_connect_errno())
     {
         echo "connection failed";
