@@ -28,7 +28,7 @@ $answer5=$_POST['question5'];
 
 if($_POST['submit']=='Submit')
 {
-    
+
     echo '<p> thank for filling!! click <a href="../Html/SurveyQuestion.html"><h3>here</h3> </a> if you want to resubmit </p>';
 }
 else
