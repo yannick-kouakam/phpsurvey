@@ -68,3 +68,4 @@ if($_POST!=null)
 
 }
 echo '</table>';
+echo '<p><a href="../Html/SurveyQuestion.html"><h3>Go back</h3> </a> if you want to resubmit </p>';
