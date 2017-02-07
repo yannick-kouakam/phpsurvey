@@ -5,6 +5,11 @@
  * Date: 06.02.2017
  * Time: 21:26
  */
+echo '<table bgcolor="#faebd7" style="width:100%" border="3"><tr bgcolor="#ffe4c4"><th bgcolor="#ffe4c4"> number</th><th bgcolor="#ffe4c4"> Answer question 1</th> 
+<th bgcolor="#ffe4c4"> Answer question 2</th> <th bgcolor="#ffe4c4"> Answer question 3</th> 
+<th bgcolor="#ffe4c4" > Answer question 4</th><th bgcolor="#ffe4c4"> Answer question 5</th></tr>';
+
+//echo '<html> <body style="background-color:powderblue;>';
 $host="us-cdbr-iron-east-04.cleardb.net";
 $bd_name="heroku_4fa074e2126dc52";
 $user_name="bd18ef721d4934";
@@ -39,14 +44,15 @@ if($_POST!=null)
                 $user=$res->fetch_assoc();
                 if($user['username']==$username)
                 {
-
                     if ($result=$con->query("select * from answers"))
                     {
-                        $num=0;
+
+                        $num=1;
                         foreach ($result as $re)
                         {
-                            echo  '<p>'.$re['question_1']." ".$re['question_2']." ".$re['question_3']." ".$re['question_4']."  ".$re['question_5'].'</p> </br>';
-                            echo PHP_EOL;
+                            echo  '<tr> <td>'.$num.'</td><td>'.$re['question_1'].'</td><td>'.$re['question_2'].'</td><td>'.$re['question_3'].
+                                '</td><td>'.$re['question_4'].'</td><td>'.$re['question_5'].'</td></tr> ';
+                            //echo PHP_EOL;
                             $num=$num+1;
                         }
                     }
@@ -56,7 +62,9 @@ if($_POST!=null)
                     echo "user not found";
                 }
             }
+            $stmt->close();
         }
 
 
 }
+echo '</table>';
