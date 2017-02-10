@@ -5,7 +5,7 @@
  * Date: 06.02.2017
  * Time: 15:50
  */
-//echo '<html> <body style="background-color:powderblue;>';
+echo '<html> <body style="background-color:powderblue;>';
 mysql://bd18ef721d4934:ff82e5ff@us-cdbr-iron-east-04.cleardb.net/heroku_4fa074e2126dc52?reconnect=true
 $host="us-cdbr-iron-east-04.cleardb.net";
 $bd_name="heroku_4fa074e2126dc52";

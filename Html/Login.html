@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <style>
+        #post {
+            width: 500px;
+            min-height: 200px;
+            margin: 150px auto;
+            text-align: center;
+            border: solid;
+            background: #f1ead0;
+
+        }
+        input[type="text"]  {
+            width: 40%;
+            min-height: 20px;
+
+        }
+        input[type="password"]  {
+            width: 40%;
+            min-height: 20px;
+            
+        }
+        input [type="submit"]{
+            width: 150px;
+            line-height: 30px;
+            min-height: 30px;
+            font-size: 24px;
+            background-color: #dcd1da;
+            text-transform: uppercase;
+
+        }
+    </style>
 </head>
 <body style="background-color:powderblue">
- <form method="post" action="../PhpFiles/Login.php">
+ <form id ="post" method="post" action="../PhpFiles/Login.php">
      <p>
          UserName: <input type="text" required name="username">
      </p>
@@ -14,7 +45,7 @@
      </p>
 
      <p>
-         <input type="submit" name="Login" value="Log In">
+         <input  type="submit" name="Login" value="Log In">
      </p>
  </form>
 

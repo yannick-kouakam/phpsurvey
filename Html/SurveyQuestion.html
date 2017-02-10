@@ -27,13 +27,13 @@
     background-color: #26f371;
   }
   #post {
-    width: 600px;
-    min-height: 500px;
-    margin: 30px auto;
-    text-align: left;
-  }
+       width: 600px;
+       min-height: 500px;
+       margin: 30px auto;
+       text-align: left;
+   }
   input[type="text"], textarea {
-    width: 80%;
+    width: 50%;
     min-height: 70px;
     resize: vertical;
   }
@@ -60,39 +60,48 @@
 <body style="background-color:powderblue;">
 <h1 align="center"> welcome to the survey </h1>
 <form id="post" method="post" action="../PhpFiles/SurveyCheck.php">
-
+    <h3> Question 1: </h3>
     <p>
-    <h3> Question 1: </h3> what is you opinion about global warming?</br>
+    what is you opinion about global warming?</br>
+    </p>
+    <p>
         <input type="text" name="question1" value="" size="50" height="200" required spellcheck="true">
     </p>
 
+
     <p>
-        <h3>Question 2:</h3>
-         Do you think that the evidence on global warming is widely
+       <h3>Question 2:</h3>  Do you think that the evidence on global warming is widely
         accepted by the scientific community, or do a significant number of scientists have serious doubts?</br>
-        <input type="radio" required name="question2" value="widely accepted"> widely accepted </br>
-        <input type="radio" required name="question2" value="serious doubt's"> serious doubt's </br>
-        <input type="radio" required name="question2" value="unsure"> unsure </br>
+    </p>
+
+    <p>
+
+        <input type="radio" required name="question2" value="widely accepted"> widely accepted
+        <input type="radio" required name="question2" value="serious doubt's"> serious doubt's
+        <input type="radio" required name="question2" value="unsure"> unsure
         <input type="radio" required name="question2" value="don't know"> don't know </br>
     </p>
 
     <p>
     <h3>Question 3:</h3> According to your understanding, rank the impact of global warming to climate changes. (1 is lower impact, 10 is higher impact)</br>
-        <input type="number" name="question3" min="1" max="10" step="1" pattern="\d+" required>
+
     </p>
+
+    <p><input type="number" name="question3" min="1" max="10" step="1" pattern="\d+" required></p>
 
     <p>
     <h3> Question: 4</h3>  Do you think that the condition of the environment will be better, worse, or about the same for the next generation?
          </br>
-        <input type="radio" required name="question4" value="Better"> Better </br>
-        <input type="radio" required name="question4" value="Worse"> Worse </br>
-        <input type="radio" required name="question4" value="The same"> The same </br>
+        <input type="radio" required name="question4" value="Better"> Better
+        <input type="radio" required name="question4" value="Worse"> Worse
+        <input type="radio" required name="question4" value="The same"> The same
         <input type="radio" required name="question4" value="don't know"> don't know </br>
     </p>
     <p>
        <h3>Question: 5</h3>  what would you do to prevent or reduce global warming? </br>
-        <textarea name="question5" required  maxlength="1000" spellcheck="true"></textarea>
+
     </p>
+    <p>  <textarea name="question5" required  maxlength="1000" spellcheck="true"></textarea></p>
 
     <p style="align: center;">
         <input type="submit" value="Submit" name="submit">
