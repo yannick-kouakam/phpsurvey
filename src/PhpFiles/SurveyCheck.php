@@ -6,12 +6,13 @@
  * Time: 15:50
  */
 echo '<html> <body style="background-color:powderblue;>';
-mysql://bd18ef721d4934:ff82e5ff@us-cdbr-iron-east-04.cleardb.net/heroku_4fa074e2126dc52?reconnect=true
-$host="us-cdbr-iron-east-04.cleardb.net";
-$bd_name="heroku_4fa074e2126dc52";
-$user_name="bd18ef721d4934";
-$pass_word="ff82e5ff";
-$con=new mysqli($host,$user_name,$pass_word,$bd_name);
+//mysql://bd18ef721d4934:ff82e5ff@us-cdbr-iron-east-04.cleardb.net/heroku_4fa074e2126dc52?reconnect=true
+$host=$_SERVER['surveydb.cqtgxye0qslc.eu-west-1.rds.amazonaws.com:3306'];
+$bd_name=$_SERVER['bd_survey'];
+$user_name=$_SERVER['yan_user'];
+$pass_word=['adminyannick'];
+$port=$_SERVER['3306']
+$con=new mysqli_connect($host,$user_name,$pass_word,$bd_name,$port);
 if(mysqli_connect_errno())
 {
     echo "connection failed";

@@ -8,13 +8,13 @@
 echo '<table bgcolor="#faebd7" style="width:100%" border="3"><tr bgcolor="#ffe4c4"><th bgcolor="#ffe4c4"> number</th><th bgcolor="#ffe4c4"> Answer question 1</th> 
 <th bgcolor="#ffe4c4"> Answer question 2</th> <th bgcolor="#ffe4c4"> Answer question 3</th> 
 <th bgcolor="#ffe4c4" > Answer question 4</th><th bgcolor="#ffe4c4"> Answer question 5</th></tr>';
-
+$host='surveydb.cqtgxye0qslc.eu-west-1.rds.amazonaws.com:3306';
+$bd_name='bd_survey';
+$user_name='yan_user';
+$pass_word='adminyannick';
+$port='3306'
+$con=new mysqli_connect($host,$user_name,$pass_word,$bd_name,$port);
 //echo '<html> <body style="background-color:powderblue;>';
-$host="us-cdbr-iron-east-04.cleardb.net";
-$bd_name="heroku_4fa074e2126dc52";
-$user_name="bd18ef721d4934";
-$pass_word="ff82e5ff";
-$con=new mysqli($host,$user_name,$pass_word,$bd_name);
 if(mysqli_connect_errno())
 {
     echo "connection failed";
@@ -24,7 +24,7 @@ if($_POST!=null)
 
 
     {
-        if(!$stmt=$con->prepare("select `username` from user WHERE username=? and password=?"))
+        if(!$stmt=$con->prepare("select `username` from users WHERE username=? and password=?"))
         {
             echo "failed to prepare statement".$con->error;
         }
