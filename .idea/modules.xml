@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../SurveyApplication/.idea/SurveyAppplication.iml" filepath="$PROJECT_DIR$/../SurveyApplication/.idea/SurveyAppplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/phpsurvey.iml" filepath="$PROJECT_DIR$/.idea/phpsurvey.iml" />
     </modules>
   </component>
 </project>

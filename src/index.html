@@ -2,97 +2,119 @@
 <html lang="en">
 <head>
 
-    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-    <style media="screen">
-        body {
-            font-family: 'Roboto', sans-serif;
-            font-size: 20px;
-        }
-        #login {
-            position: absolute;
-            right: 150px;
-            top: 110px;
-            width: 200px;
-            text-align: center;
-        }
-        #login a {
-            text-transform: uppercase;
-            font-size: 40px;
-            line-height: 60px;
-            min-height: 60px;
-            border: 2px solid black;
-            box-shadow: 6px 6px 5px #888888;
-            width: 100%;
-            min-height: 100%;
-            background-color: #26f371;
-        }
-        #post {
-            width: 400px;
-            min-height: 500px;
-            margin: 30px auto;
-            text-align: left;
-        }
-        input[type="text"], input[type="number"], textarea {
-            width: 100%;
-            min-height: 24px;
-            resize: vertical;
-        }
-        input[type="number"] {
-            width: auto;
-        }
-        input[type="submit"] {
-            width: 150px;
-            line-height: 30px;
-            min-height: 30px;
-            font-size: 24px;
-            background-color: #346e80;
-            border: 2px solid black;
-            text-transform: uppercase;
-            position:relative;
-            top:50%;
-            left:30%;
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<style media="screen">
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+  #login {
+    position: absolute;
+    right: 70px;
+    top: 110px;
+    width: 100px;
+    text-align: center;
+  }
+  #login a {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 30px;
+    min-height: 30px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 5px #888888;
+    width: 100%;
+    min-height: 100%;
+    background-color: #26f371;
+  }
+  #post {
+       width: 600px;
+       min-height: 500px;
+       margin: 30px auto;
+       text-align: left;
+   }
+  input[type="text"], textarea {
+    width: 50%;
+    min-height: 70px;
+    resize: vertical;
+  }
+  input[type="number"] {
+    width: auto;
+  }
+  input[type="submit"] {
+    width: 150px;
+    line-height: 30px;
+    min-height: 30px;
+    font-size: 24px;
+    background-color: #dcd1da;
+    border: 2px solid black;
+    text-transform: uppercase;
+    position:relative;
+    top:50%;
+    left:30%;
 
-        }
-    </style>
+  }
+    input[type="radio"]{
+        font-size: 24px;
+
+    }
+</style>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body style="background-color:powderblue;">
 <h1 align="center"> welcome to the survey </h1>
-<form id="post" method="post" action="../PhpFiles/SurveyCheck.php">
-
+<form id="post" method="post" action="SurveyCheck.php">
+    <h3> Question 1: </h3>
     <p>
-        Question 1: what is you opinion about global warming?</br>
-        <input type="text" name="question1" value="" size="50" height="50" required>
+    what is you opinion about global warming?</br>
+    </p>
+    <p>
+        <input type="text" name="question1" value="" size="50" height="200" required spellcheck="true">
     </p>
 
-    <p>
-        Question 2: what institutions do you are more involve in the problem</br>
-        <input type="radio" required name="question2" value="Government"> Governments </br>
-        <input type="radio" required name="question2" value="NGO"> NGO </br>
-        <input type="radio" required name="question2" value="Citizen"> Citizen </br>
-        <input type="radio" required name="question2" value="other"> Governments </br>
-    </p>
 
     <p>
-        Question 3: give a mark to the app</br>
-        <input type="number" name="question3" min="1" max="10" step="1" pattern="\d+" required>
+       <h3>Question 2:</h3>  Do you think that the evidence on global warming is widely
+        accepted by the scientific community, or do a significant number of scientists have serious doubts?</br>
     </p>
 
     <p>
-        Question: 4 </br>
-        <textarea name="question4" required  maxlength="1000"></textarea>
+
+        <input type="radio" required name="question2" value="widely accepted"> widely accepted
+        <input type="radio" required name="question2" value="serious doubt's"> serious doubt's
+        <input type="radio" required name="question2" value="unsure"> unsure
+        <input type="radio" required name="question2" value="don't know"> don't know </br>
     </p>
+
     <p>
-        Question: 5 </br>
-        <textarea name="question5" required  maxlength="1000"></textarea>
+    <h3>Question 3:</h3> According to your understanding, rank the impact of global warming to climate changes. (1 is lower impact, 10 is higher impact)</br>
+
     </p>
+
+    <p><input type="number" name="question3" min="1" max="10" step="1" pattern="\d+" required></p>
+
+    <p>
+    <h3> Question: 4</h3>  Do you think that the condition of the environment will be better, worse, or about the same for the next generation?
+         </br> </p>
+    <p>
+        <input type="radio" required name="question4" value="Better" size="50"> Better
+        <input type="radio" required name="question4" value="Worse" size="12"> Worse
+        <input type="radio" required name="question4" value="The same"> The same
+        <input type="radio" required name="question4" value="don't know"> don't know </br>
+    </p>
+
+
+    <p>
+       <h3>Question: 5</h3>  what would you do to prevent or reduce global warming? </br>
+
+    </p>
+    <p>  <textarea name="question5" required  maxlength="1000" spellcheck="true"></textarea></p>
 
     <p style="align: center;">
         <input type="submit" value="Submit" name="submit">
     </p>
 
 </form>
-<div id="login"><a href="../Html/Login.html"> log in</a> </div>
+<div id="login"><a href="Login.html"> log in</a> </div>
 </body>
 </html>

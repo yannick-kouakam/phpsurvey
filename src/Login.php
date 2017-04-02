@@ -12,8 +12,8 @@ $host='surveydb.cqtgxye0qslc.eu-west-1.rds.amazonaws.com:3306';
 $bd_name='bd_survey';
 $user_name='yan_user';
 $pass_word='adminyannick';
-$port='3306'
-$con=new mysqli_connect($host,$user_name,$pass_word,$bd_name,$port);
+$port='3306';
+$con=new mysqli($host,$user_name,$pass_word,$bd_name,$port);
 //echo '<html> <body style="background-color:powderblue;>';
 if(mysqli_connect_errno())
 {
@@ -68,4 +68,4 @@ if($_POST!=null)
 
 }
 echo '</table>';
-echo '<p><a href="../Html/SurveyQuestion.html"><h3>Go back</h3> </a>  </p>';
+echo '<p><a href="index.html"><h3>Go back</h3> </a>  </p>';
